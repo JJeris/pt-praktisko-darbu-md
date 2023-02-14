@@ -8,7 +8,7 @@
 7. Open folder with VSC or whatever you choose
 8. Done
 
-# Creating pull requests (I like to call them merge requests, idk sounds better, but GitHub people do it differently)
+# Creating pull requests (I call them merge requests, idk sounds better, but GitHub people do it differently)
 1. Open your project with VSC
 2. On left side press 3rd icon (looks like 3 connected circles), called source control
 3. Press on 3 dots near the top, above blue button
