@@ -16,7 +16,7 @@
 5. On the bottom there is main branch, press it
 6. Press create new branch
 7. Enter branch name (I usually use "update/...")
-8. Do whatever changes in the code you want to
+8. Do whatever changes in the code you want to do
 9. Go back to source control tab (on the left side)
 10. Enter commit message
 11. Press on the arrow on the blue button
