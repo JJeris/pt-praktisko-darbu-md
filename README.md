@@ -1,5 +1,3 @@
-# pt-praktisko-darbu-md
--
 # Cloning repo locally
 1. Go to `https://git-scm.com/` > download git
 2. Open cmd or whatever your system uses
