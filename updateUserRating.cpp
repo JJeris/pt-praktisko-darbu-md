@@ -51,7 +51,6 @@ void updateUserRating(int userID) {
         return;
     }
 
-    //for (list<priceSuggestion>::iterator it=userPriceSuggestions.begin(); it != userPriceSuggestions.end(); ++it){
     list<priceSuggestion>::iterator it = userPriceSuggestions.begin();
     while(it != userPriceSuggestions.end()) {
         if((*it).rating>10){
