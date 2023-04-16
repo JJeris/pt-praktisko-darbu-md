@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(updateUserRating)
+
+add_executable(updateUserRating test.cpp)
+
+add_subdirectory(musuFunkcija)
