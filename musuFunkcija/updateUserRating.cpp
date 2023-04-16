@@ -22,10 +22,10 @@ User::User(int userID, int userRating) {
 // query = $"SELECT * FROM priceSuggestions WHERE userID = $userID"
 // query2 = $"SELECT * FROM Users WHERE userID = $userID"
 // simulē query, ja būtu īsta datubāze
-list<priceSuggestion> priceSuggestions;
-User userGlobal(USERID, 10);
+//list<priceSuggestion> priceSuggestions;
+//User userGlobal(USERID, 10);
 
-void updateUserRating(int userID) {
+void test::updateUserRating(int userID) {
     if(userID != USERID) { // Simulācija, ka neeksistē USER
         cout << "WARNING: Tried to update user rating for a user which does not exist!" << endl; 
         return;

@@ -1,0 +1,1 @@
+add_library(updateUserRating updateUserRating.cpp updateUserRating.h)
