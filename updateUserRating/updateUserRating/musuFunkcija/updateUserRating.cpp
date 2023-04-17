@@ -1,3 +1,4 @@
+//#include "../pch.h"
 #include <iostream>
 #include <list>
 #include "updateUserRating.h"
@@ -35,7 +36,7 @@ void test::updateUserRating(int userID) {
     list<priceSuggestion> userPriceSuggestions = priceSuggestions; // query priekš cenu piedāvājumiem
     int userRating = 0;
 
-    int length = priceSuggestions.size();
+    int length = (int)priceSuggestions.size();
     if(length == 0){
         //cout << "NOTE: Saving user " << userID << "rating: " << userRating <<endl;
         user.userRating = userRating;

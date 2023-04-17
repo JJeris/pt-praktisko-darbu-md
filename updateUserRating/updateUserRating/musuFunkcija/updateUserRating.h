@@ -37,7 +37,7 @@ public:
         this->USERID = USERID;
         this->initialRating = initialRating;
     }
-    ~test();
+    //~test();
 
     void updateUserRating(int userID);
 };

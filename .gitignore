@@ -1,3 +1,8 @@
 updateUserRating.exe
 .vscode/settings.json
 updateUserRating.o
+/.vs
+/updateUserRating/.vs/updateUserRating
+/updateUserRating/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7
+/updateUserRating/updateUserRating/x64
+/updateUserRating/x64/Debug
