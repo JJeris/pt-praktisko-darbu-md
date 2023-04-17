@@ -28,8 +28,7 @@ User::User(int userID, int userRating) {
 
 void test::updateUserRating(int userID) {
     if(userID != USERID) { // Simulācija, ka neeksistē USER
-        cout << "WARNING: Tried to update user rating for a user which does not exist!" << endl; 
-        return;
+        throw "WARNING: Tried to update user rating for a user which does not exist!";
     }
 
     User user = userGlobal; // query priekš user
@@ -57,7 +56,6 @@ void test::updateUserRating(int userID) {
     //cout << "NOTE: Saving user " << userID << "rating: " << userRating <<endl;
     user.userRating = userRating;
     userGlobal = user; //update
-    cout << "Uzticamības reitings veiksmīgi atjaunināts." <<endl;
 }
 
 /*
